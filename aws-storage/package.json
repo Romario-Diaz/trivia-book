@@ -1,0 +1,21 @@
+{
+  "name": "aws-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1021.0",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.10.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
