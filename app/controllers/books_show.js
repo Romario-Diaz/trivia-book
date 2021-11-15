@@ -9,7 +9,7 @@ async function getInitialBooks (req, res) {
 }
 
 async function getFreeEbooks (req, res) {
-    let sql = `select * from ebooksfree`
+    let sql = `select * from ebooksfree order by rand()`
     const response = await Factory(sql)
     res.json({result : response})
 }
@@ -35,6 +35,9 @@ async function getStuffs (req, res, next) {
 async function getOneBook (req, res) {
     res.json({message : 'one book!!'})
 }
+
+
+
 
 async function uploadAudioBooks (req, res) {
     const { file, body } = req
