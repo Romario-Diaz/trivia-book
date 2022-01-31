@@ -18,6 +18,10 @@ app.use(json())
 // routes
 app.use('/books', require('./routes/books_show'))
 
+app.use('/amazon', require('./routes/products_amazon'))
+
+app.use('/user', require('./routes/users'))
+
 // static files
 app.use(express.static(path.join(__dirname, '../static')))
 

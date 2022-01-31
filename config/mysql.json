@@ -1,9 +1,0 @@
-{
-    "mysql": {
-        "host": "free-book.cb1pl6nxj1f3.us-east-1.rds.amazonaws.com",
-        "port": 3306,
-        "user": "chapito",
-        "pass": "Mente12345",
-        "database": "triviabook"
-    }
-}
